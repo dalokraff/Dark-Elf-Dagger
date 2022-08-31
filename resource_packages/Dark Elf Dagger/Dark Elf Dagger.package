@@ -1,0 +1,22 @@
+mod = [
+	"Dark Elf Dagger"
+]
+
+package = [
+	"resource_packages/Dark Elf Dagger/Dark Elf Dagger"
+]
+
+lua = [
+	"scripts/mods/Dark Elf Dagger/*"
+]
+unit = [
+  "units/*"
+]
+
+material = [
+  "materials/*"
+]  
+
+texture = [
+  "textures/*"
+] 

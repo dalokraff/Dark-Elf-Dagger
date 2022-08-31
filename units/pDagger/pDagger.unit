@@ -1,0 +1,90 @@
+materials = {
+}
+
+data = {
+	mat_slots = {
+        slot1 = "lambert1",
+    }
+   // mat_to_use = "units/weapons/player/wpn_empire_handgun_02_t2/wpn_empire_handgun_02_t2"
+	// mat_to_use = "units/weapons/player/wpn_emp_sword_02_t1/wpn_emp_sword_02_t1"
+
+	mat_to_use = "units/weapons/player/wpn_we_dagger_01_t1/wpn_we_dagger_01_t1_runed_01"
+
+	// mat_to_use = "units/weapons/player/wpn_brw_sword_01_t1/wpn_brw_flaming_sword_01_t1"
+    
+	//mat_to_use = "units/weapons/player/wpn_potion_01/wpn_potion_healing_01"
+    colors = {
+        slot1 = "textures/TEX_Dark_Elf_Dagger_COL"
+    }
+    normals = {
+        slot1 = "textures/TEX_Dark_Elf_Dagger_NRM"
+    }
+    MABs = {
+        slot1 = "textures/TEX_Dark_Elf_Dagger_MAB"
+    }
+	emis_colors = {
+		slot1 = "textures/chr_critter_pig_ma"
+	}
+	emis_details = {
+		slot1 = "textures/TEX_Dark_Elf_Dagger_E"
+	}
+
+    color_slot = "texture_map_c0ba2942" 
+    norm_slot = "texture_map_59cd86b9"
+    MAB_slot = "texture_map_0205ba86"
+	emis_col_slot = "texture_map_71d74d4d"
+	emis_det_slot = "texture_map_4617b8e0"
+	
+	// mat_to_use = "units/beings/player/empire_soldier_knight/skins/black_and_gold/mtr_outfit_black_and_gold_1p"
+	// mat_package = "units/beings/player/empire_soldier_knight/skins/black_and_gold/chr_empire_soldier_knight_black_and_gold"
+	// color_slot = "texture_map_64cc5eb8" 
+	// norm_slot = "texture_map_861dbfdc"
+	// MAB_slot = "texture_map_abb81538"
+
+
+
+	randomize_tints = true
+	scale_max = 1.3
+	scale_min = 0.8
+	tint_variation = 0
+}
+
+
+renderables = {
+	pDark_Elf_Dagger_Low_Poly = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = true
+	}
+	pDagger = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = true
+	}
+	polySurface6 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = true
+	}
+	Manche1 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = true
+	}
+}

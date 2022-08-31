@@ -1,0 +1,113 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "e1d24468-d03e-4884-9b0d-dba23aaa94d6"
+				instance_id = "51a8f54d-d26d-4b8c-88ff-bbeba5a9a071"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "0bbed522-404b-4d1d-95fd-0c0e63e06cf7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "0752e133-0c01-4fc4-b45a-a629cad4f850"
+				instance_id = "51a8f54d-d26d-4b8c-88ff-bbeba5a9a071"
+			}
+			select = [
+				"a"
+			]
+			source = {
+				instance_id = "0bbed522-404b-4d1d-95fd-0c0e63e06cf7"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "51a8f54d-d26d-4b8c-88ff-bbeba5a9a071"
+			options = [
+				"f720cf3f-c8fc-4daf-a6fc-a6b1de1fca26"
+			]
+			position = [
+				140
+				0
+			]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/particle_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "0bbed522-404b-4d1d-95fd-0c0e63e06cf7"
+			options = [
+			]
+			position = [
+				-160
+				80
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/vertex_color0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "188aabe5-6288-436b-aabc-b62f3f3b5227"
+			options = [
+			]
+			position = [
+				-160
+				-40
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/billboard_size"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "d67616c1-fd39-418e-8389-b23f41b01256"
+			options = [
+			]
+			position = [
+				-160
+				20
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/billboard_rotation"
+		}
+	]
+	version = 3
+}
+textures = {
+}
+variables = {
+}
