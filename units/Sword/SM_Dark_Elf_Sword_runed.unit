@@ -1,0 +1,157 @@
+materials = {
+	// Ruby = "materials/red_1p"
+}
+
+data = {
+	mat_slots = {
+        slot1 = "lambert1",
+		slot2 = "Ruby",
+    }
+//    mat_to_use = "units/weapons/player/wpn_empire_handgun_02_t2/wpn_empire_handgun_02_t2"
+	// mat_to_use = "units/weapons/player/wpn_emp_sword_02_t1/wpn_emp_sword_02_t1"
+	mat_to_use = "units/weapons/player/wpn_we_dagger_01_t1/wpn_we_dagger_01_t1_runed_01"
+    
+    colors = {
+        slot1 = "textures/sword/T_Dark_Elf_Swordt_BCR"
+		slot2 = "textures/sword/T_Dark_Elf_Swordt_BCR"
+    }
+    normals = {
+        slot1 = "textures/sword/T_Dark_Elf_Sword_Runes_01_N"
+		slot2 = "textures/sword/T_Dark_Elf_Sword_Runes_01_N"
+    }
+    MABs = {
+        slot1 = "textures/sword/T_Dark_Elf_Sword_MAB"
+		slot2 = "textures/sword/T_Dark_Elf_Sword_MAB"
+    }
+	emis_colors = {
+		slot1 = "textures/sword/T_Purple_100"
+		slot2 = "textures/sword/animation/T_Red_0"
+	}
+	emis_details = {
+		slot1 = "textures/sword/T_Dark_Elf_Sword_Runes_01_E"
+		slot2 = "textures/sword/animation/T_Red_100"
+	}
+
+	animation = {
+		// slot1 = {
+		// 	emis_colors = {
+		// 		frame_delay = 0.122
+		// 		loop_on_spawn = true
+		// 		num_of_loops = -1
+		// 		1 = "textures/sword/animation/T_Red_0"
+		// 		2 = "textures/sword/animation/T_Red_05"
+		// 		3 = "textures/sword/animation/T_Red_10"
+		// 		4 = "textures/sword/animation/T_Red_15"
+		// 		5 = "textures/sword/animation/T_Red_20"
+		// 		6 = "textures/sword/animation/T_Red_25"
+		// 		7 = "textures/sword/animation/T_Red_30"
+		// 		8 = "textures/sword/animation/T_Red_35"
+		// 		9 = "textures/sword/animation/T_Red_40"
+		// 		10 = "textures/sword/animation/T_Red_45"
+		// 		11 = "textures/sword/animation/T_Red_50"
+		// 		12 = "textures/sword/animation/T_Red_55"
+		// 		13 = "textures/sword/animation/T_Red_60"
+		// 		14 = "textures/sword/animation/T_Red_65"
+		// 		15 = "textures/sword/animation/T_Red_70"
+		// 		16 = "textures/sword/animation/T_Red_75"
+		// 		17 = "textures/sword/animation/T_Red_80"
+		// 		18 = "textures/sword/animation/T_Red_85"
+		// 		19 = "textures/sword/animation/T_Red_90"
+		// 		20 = "textures/sword/animation/T_Red_95"
+		// 		21 = "textures/sword/animation/T_Red_100"
+		// 		22 = "textures/sword/animation/T_Red_95"
+		// 		23 = "textures/sword/animation/T_Red_90"
+		// 		24 = "textures/sword/animation/T_Red_85"
+		// 		25 = "textures/sword/animation/T_Red_80"
+		// 		26 = "textures/sword/animation/T_Red_75"
+		// 		27 = "textures/sword/animation/T_Red_70"
+		// 		28 = "textures/sword/animation/T_Red_65"
+		// 		29 = "textures/sword/animation/T_Red_60"
+		// 		30 = "textures/sword/animation/T_Red_55"
+		// 		31 = "textures/sword/animation/T_Red_50"
+		// 		32 = "textures/sword/animation/T_Red_45"
+		// 		33 = "textures/sword/animation/T_Red_40"
+		// 		34 = "textures/sword/animation/T_Red_35"
+		// 		35 = "textures/sword/animation/T_Red_30"
+		// 		36 = "textures/sword/animation/T_Red_25"
+		// 		37 = "textures/sword/animation/T_Red_20"
+		// 		38 = "textures/sword/animation/T_Red_15"
+		// 		39 = "textures/sword/animation/T_Red_10"
+		// 		40 = "textures/sword/animation/T_Red_05"
+		// 		41 = "textures/sword/animation/T_Red_0"
+		// 	}
+		// }
+		slot2 = {
+			emis_colors = {
+				frame_delay = 0.122
+				loop_on_spawn = false
+				num_of_loops = 1
+				1 = "textures/sword/animation/T_Red_0"
+				2 = "textures/sword/animation/T_Red_05"
+				3 = "textures/sword/animation/T_Red_10"
+				4 = "textures/sword/animation/T_Red_15"
+				5 = "textures/sword/animation/T_Red_20"
+				6 = "textures/sword/animation/T_Red_25"
+				7 = "textures/sword/animation/T_Red_30"
+				8 = "textures/sword/animation/T_Red_35"
+				9 = "textures/sword/animation/T_Red_40"
+				10 = "textures/sword/animation/T_Red_45"
+				11 = "textures/sword/animation/T_Red_50"
+				12 = "textures/sword/animation/T_Red_55"
+				13 = "textures/sword/animation/T_Red_60"
+				14 = "textures/sword/animation/T_Red_65"
+				15 = "textures/sword/animation/T_Red_70"
+				16 = "textures/sword/animation/T_Red_75"
+				17 = "textures/sword/animation/T_Red_80"
+				18 = "textures/sword/animation/T_Red_85"
+				19 = "textures/sword/animation/T_Red_90"
+				20 = "textures/sword/animation/T_Red_95"
+				21 = "textures/sword/animation/T_Red_100"
+				22 = "textures/sword/animation/T_Red_95"
+				23 = "textures/sword/animation/T_Red_90"
+				24 = "textures/sword/animation/T_Red_85"
+				25 = "textures/sword/animation/T_Red_80"
+				26 = "textures/sword/animation/T_Red_75"
+				27 = "textures/sword/animation/T_Red_70"
+				28 = "textures/sword/animation/T_Red_65"
+				29 = "textures/sword/animation/T_Red_60"
+				30 = "textures/sword/animation/T_Red_55"
+				31 = "textures/sword/animation/T_Red_50"
+				32 = "textures/sword/animation/T_Red_45"
+				33 = "textures/sword/animation/T_Red_40"
+				34 = "textures/sword/animation/T_Red_35"
+				35 = "textures/sword/animation/T_Red_30"
+				36 = "textures/sword/animation/T_Red_25"
+				37 = "textures/sword/animation/T_Red_20"
+				38 = "textures/sword/animation/T_Red_15"
+				39 = "textures/sword/animation/T_Red_10"
+				40 = "textures/sword/animation/T_Red_05"
+				41 = "textures/sword/animation/T_Red_0"
+			}
+		}
+	}
+
+    color_slot = "texture_map_c0ba2942" 
+    norm_slot = "texture_map_59cd86b9"
+    MAB_slot = "texture_map_0205ba86"
+	emis_col_slot = "texture_map_71d74d4d"
+	emis_det_slot = "texture_map_4617b8e0"
+	
+	randomize_tints = true
+	scale_max = 1.3
+	scale_min = 0.8
+	tint_variation = 0
+}
+
+
+renderables = {
+	pDark_Elf_Sword_LP = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = true
+	}
+}

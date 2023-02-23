@@ -6,65 +6,23 @@ local mod_text_ids = {
 	mod_description = {
 		en = "Dark-Elf-Dagger description",
 	},
-	choose_char_hat = {
-		en = "Choose Hat for Character",
-	},
 	choose_skin = {
 		en = "Choose active skin"
 	},
 	choose_wep = {
 		en = "Choose Weapon",
 	},
-	choose_char_armor = {
-		en = "Choose Character Skin"
+	elf_daggers = {
+		en = "Elf Dual Daggers",
 	},
-	choose_hat = {
-		en = "Choose Hat",
+	elf_dual_swords = {
+		en = "Elf Dual Swords",
 	},
-	pick_wep = {
-		en = "Pick Weapon",
+	elf_swords = {
+		en = "Elf Swords",
 	},
-	krub = {
-		en = "Kruber",
-	},
-	bard = {
-		en = "Bardin",
-	},
-	salt = {
-		en = "Saltspyre",
-	},
-	elf = {
-		en = "Kerrilian",
-	},
-	wiz = {
-		en = "Sienna",
-	},
-	bret_sword_shield = {
-		en = "Breton Long Sword and Shield",
-	},
-	emp_spear_shield = {
-		en = "Empire Spear and Shield",
-	},
-	emp_sword_shield = {
-		en = "Empire Sword and Shield",
-	},
-	emp_mace_shield = {
-		en = "Empire Mace and Shield",
-	},
-	elf_spear_shield = {
-		en = "High Elf Spear and Shield",
-	},
-	dwarf_axe_shield = {
-		en = "Dwarf Axe and Shield"
-	},
-	dwarf_ham_shield = {
-		en = "Dwarf Hammer and Shield"
-	},
-	elf_hm_hat_1001 = {
-		en = "Windrunner's helm",
-	},
-	elf_bow = {
-		en = "Elf Longbow",
+	elf_sword_dagger = {
+		en = "Elf Sword and Dagger",
 	},
 	default = {
 		en = "default",

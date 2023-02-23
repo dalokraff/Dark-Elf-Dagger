@@ -223,3 +223,43 @@ mod:hook(LocalizationManager, "_base_lookup", function (func, self, text_id)
     
 	return func(self, text_id)
 end)
+
+
+local hijack_mod = get_mod("Material-Hijack")
+mod:hook(BuffExtension, "add_buff", function (func, self,template_name, params)
+    if template_name == "traits_melee_attack_speed_on_crit_proc" then
+        local player_unit = params.attacker_unit
+        local player = Managers.player:local_player()
+        if player_unit == player.player_unit then
+            for unit, anim_texture_extension in pairs(hijack_mod.texture_animations) do
+                local unit_name = Unit.get_data(unit, "unit_name")
+                if string.find(unit_name, "SM_Dark_Elf_Sword") then
+                    local tisch = anim_texture_extension.loop_on_spawn
+                    for k,v in pairs(tisch) do
+                        v.emis_colors = true
+                    end 
+                    local tisch = anim_texture_extension.frame_numbers
+                    for k,v in pairs(tisch) do
+                        v.loops = 0
+                    end 
+                    -- anim_texture_extension.loop_on_spawn["Ruby"]["emis_colors"] = true
+                    -- anim_texture_extension.frame_numbers["Ruby"]["emis_colors"]["loops"] = 0
+                end
+            end
+        end
+    end
+    
+    return func(self, template_name, params)
+end)
+
+-- local hijack_mod = get_mod("Material-Hijack")
+-- for unit, anim_texture_extension in pairs(hijack_mod.texture_animations) do
+--     local unit_name = Unit.get_data(unit, "unit_name")
+--     if string.find(unit_name, "SM_Dark_Elf_Sword") then
+--         local tisch = anim_texture_extension.loop_on_spawn
+--         for k,v in pairs(tisch) do
+--             v.emis_colors = true
+--             v.loops = 0
+--         end
+--     end
+-- end
