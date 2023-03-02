@@ -86,7 +86,9 @@ function mod.update(dt)
         local wwise_world = Wwise.wwise_world(world)
         for sound_event_name,tisch in pairs(mod.delayed_sounds) do
             if mod_time >= tisch.time then
-                local sound_id = WwiseWorld.trigger_event(wwise_world, sound_event_name, tisch.unit)
+                local event_name = string.gsub(sound_event_name, "_left_dark_elf", "")
+                event_name = string.gsub(event_name, "_right_dark_elf", "")
+                local sound_id = WwiseWorld.trigger_event(wwise_world, event_name, tisch.unit)
                 mod.delayed_sounds[sound_event_name] = nil
             end
         end

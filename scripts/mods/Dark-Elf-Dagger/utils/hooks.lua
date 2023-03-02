@@ -295,7 +295,7 @@ mod:hook_safe(Unit, "animation_event", function(unit, event, ...)
                             local sound_id = WwiseWorld.trigger_event(wwise_world, sound_event.name, slot_data.right_unit_1p)
                         else 
                             local time = mod.time + sound_event.delay 
-                            mod.delayed_sounds[sound_event.name] = {
+                            mod.delayed_sounds[sound_event.name.."_right_dark_elf"] = {
                                 time = time, 
                                 unit = slot_data.right_unit_1p
                             }
@@ -315,7 +315,7 @@ mod:hook_safe(Unit, "animation_event", function(unit, event, ...)
                             local sound_id = WwiseWorld.trigger_event(wwise_world, sound_event.name, slot_data.left_unit_1p)
                         else 
                             local time = mod.time + sound_event.delay 
-                            mod.delayed_sounds[sound_event.name] = {
+                            mod.delayed_sounds[sound_event.name.."_left_dark_elf"] = {
                                 time = time, 
                                 unit = slot_data.left_unit_1p
                             }
