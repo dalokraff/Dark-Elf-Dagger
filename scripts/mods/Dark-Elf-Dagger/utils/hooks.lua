@@ -283,8 +283,6 @@ mod:hook_safe(Unit, "animation_event", function(unit, event, ...)
         if slot_data then
             local left_hand =  slot_data.left_hand_unit_name
             local right_hand = slot_data.right_hand_unit_name
-            mod:echo(left_hand)
-            mod:echo(right_hand)
 
             if right_hand then
                 local sound_table = unit_sound_map[right_hand]
