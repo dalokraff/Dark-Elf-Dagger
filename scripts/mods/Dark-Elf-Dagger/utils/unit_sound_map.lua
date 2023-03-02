@@ -91,7 +91,7 @@ unit_sound_map["units/pDagger/pDagger"] = {
     },
     attack_swing_heavy = {
         name = "rare_dagger_1h_swing",
-        delay = 0.15
+        delay = 0.05
     },
     attack_swing_left_diagonal = {
         name = "rare_dagger_1h_swing",
@@ -99,7 +99,7 @@ unit_sound_map["units/pDagger/pDagger"] = {
     },
     attack_swing_heavy_down = {
         name = "rare_dagger_1h_swing",
-        delay = 0.3
+        delay = 0.1
     },
     attack_swing_heavy_left_up = {
         name = "rare_dagger_1h_swing",
@@ -123,7 +123,7 @@ unit_sound_map["units/pDagger/pDagger"] = {
     },
     push_stab = {
         name = "rare_dagger_1h_swing",
-        delay = 0.3
+        delay = 0.1
     },
 }
 
