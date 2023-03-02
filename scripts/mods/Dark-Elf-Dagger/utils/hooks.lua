@@ -1,7 +1,7 @@
 local mod = get_mod("Dark-Elf-Dagger")
 mod:dofile("scripts/mods/Dark-Elf-Dagger/utils/funcs")
 
-local unit_sound_map = require("scripts/mods/Loremasters-Armoury/unit_sounds/unit_sound_map")
+local unit_sound_map = require("scripts/mods/Dark-Elf-Dagger/utils/unit_sound_map")
 
 --this hook is used to populate the level_world queue; get's the units to change with what custom illusion should be applied to that unit
 mod:hook(SimpleInventoryExtension, "_get_no_wield_required_property_and_trait_buffs", function (func, self, backend_id)
@@ -283,7 +283,8 @@ mod:hook_safe(Unit, "animation_event", function(unit, event, ...)
         if slot_data then
             local left_hand =  slot_data.left_hand_unit_name
             local right_hand = slot_data.right_hand_unit_name
-
+            mod:echo(left_hand)
+            mod:echo(right_hand)
 
             if right_hand then
                 local sound_table = unit_sound_map[right_hand]
@@ -328,3 +329,18 @@ mod:hook_safe(Unit, "animation_event", function(unit, event, ...)
     end
 
 end)
+
+
+
+
+-- mod:hook_safe(Unit, "animation_event", function(unit, event, ...)
+--     local player = Managers.player:local_player()
+--     local player_unit = player.player_unit
+--     if player_unit == unit then
+--         mod:echo("Animation:    "..event)
+--     end
+-- end)
+
+-- mod:hook_safe(WwiseWorld, "trigger_event", function(self, event, ...)
+--     mod:echo("Sound:    "..event)
+-- end)

@@ -34,11 +34,13 @@ mod.level_queue = {}
 mod.preview_queue = {}
 mod.current_skin = {}
 
+mod.delayed_sounds = {}
 
+mod.time = 0
 --on mod update:
 --the level_queue and previe_queue are checked to see if the respective worlds have any units that need to be retextured
 --the SKIN_CHANGED table is updated with info from the vmf menu about which skins are currently being used by which weapons
-function mod.update()
+function mod.update(dt)
     local flush_preview = false
     local flush_level = false
 
@@ -78,5 +80,17 @@ function mod.update()
         mod.preview_queue = {}
     end
     
-    
+    local mod_time = mod.time
+    if Managers.world:has_world("level_world") then
+        local world = Managers.world:world("level_world")
+        local wwise_world = Wwise.wwise_world(world)
+        for sound_event_name,tisch in pairs(mod.delayed_sounds) do
+            if mod_time >= tisch.time then
+                local sound_id = WwiseWorld.trigger_event(wwise_world, sound_event_name, tisch.unit)
+                mod.delayed_sounds[sound_event_name] = nil
+            end
+        end
+    end
+
+    mod.time = mod_time + dt
 end
