@@ -1,6 +1,6 @@
 common = {
 	input = {
-		filename = "textures/sword/T_Purple_100"
+		filename = "textures/sword/T_Purple_2"
 	}
 	output = {
 		apply_processing = true
