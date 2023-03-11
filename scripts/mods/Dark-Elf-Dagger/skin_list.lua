@@ -93,6 +93,15 @@ mod.elf_bow_skins = {
 
 mod.elf_sword_skins = {
     "we_sword_skin_01",
+    "we_sword_skin_02",
+    "we_sword_skin_02_runed_01",
+    "we_sword_skin_03",
+    "we_sword_skin_04",
+    "we_sword_skin_04_runed_01",
+    "we_sword_skin_05",
+    "we_sword_skin_05_runed_01",
+    "we_sword_skin_06",
+    "we_sword_skin_07",
 }
 
 mod.elf_dual_sword_skins = {
@@ -123,6 +132,7 @@ mod.elf_sword_dagger_skins = {
 table.append(skins_to_change, mod.elf_bow_skins)
 table.append(skins_to_change, mod.elf_dual_sword_skins)
 table.append(skins_to_change, mod.elf_sword_dagger_skins)
+table.append(skins_to_change, mod.elf_sword_skins)
 
 --this mod table is used for the vmf menu localization
 mod.vanilla_game_strings = table.clone(skins_to_change, true)

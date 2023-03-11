@@ -60,6 +60,42 @@ mod.elf_swords = {
         Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
         Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
     },
+    we_sword_skin_02 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_02_runed_01 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_03 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_04 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_04_runed_01 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_05 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_05_runed_01 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_06 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
+    we_sword_skin_07 = {
+        Kerillian_Dark_Elf_Sword_right = "Dark Elf Sword",
+        Kerillian_Dark_Elf_Sword_runed_right = "Dark Elf Rune Sword right", 
+    },
 }
 
 mod.elf_dual_swords = {
